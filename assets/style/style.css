@@ -70,6 +70,7 @@ li {
     position: absolute;
     top: 36px;
     width: 100%;
+    z-index: 1111;
 }
 .header__logo {
     display: inline-block;
@@ -122,14 +123,6 @@ li {
     margin: 35px 0;
     max-width: 378px;
 }
-/* HERO SECTION */
-
-
-
-/*FEATURES SECTION*/
-.features {
-    padding: 211px 0 80px;
-}
 .hero__card svg {
     margin-bottom: 10px;
 }
@@ -141,6 +134,7 @@ li {
     color: var( --dark-color);
 }
 .card__text {
+    height: 40px;
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 14px;
@@ -159,8 +153,191 @@ li {
     bottom: -19px;
 }
 .hero__card {
+    width: 328px;
+    height: 210px;
     padding: 39px 28px 35px 40px;
     background: var(--light-color);
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
+.hero__card-1 {
+    width: 328px;
+    height: 210px;
+    padding: 39px 28px 35px 40px;
+    background: var(--primery-color);
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+.hero__card-1 svg {
+    background: var(--light-color);
+}
+.card__title-1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: var( --light-color);
+}
+.card__text-1 {
+    height: 40px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: var(--light-color);
+}
+/* HERO SECTION */
+
+
+
 /*FEATURES SECTION*/
+.features {
+    padding: 211px 0 80px;
+    background-color: #FAFAFA;
+}
+
+.features__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color:var(--dark-color);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.features__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--disablad-color);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.features__cards {
+    max-width: 100%;
+    position: absolute;
+    display: grid;
+    column-gap: 38px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+.features__card {
+    width: 230px;
+    height: 209px;
+    padding: 30px 40px 30px 40px;
+    gap: 10px;
+    background: var(--light-color);
+}
+.features__card svg {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.features__card-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: var(--dark-color);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.features__card-title-1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: var(--dark-color);
+    text-align: center;
+    margin: 21px 0px 10px;
+}
+.features__card-title-2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: var(--dark-color);
+    text-align: center;
+    margin: 13px 0px 10px;
+}
+.features__card-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: var(--disablad-color);
+    text-align: center;
+}
+/*FEATURES SECTION*/
+
+
+/*ADVICE SECTION*/
+.advice {
+    padding: 80px 0;
+    background-color: #FAFAFA;
+}
+
+.advice__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: var(--dark-color);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.advice__text {
+    width: 511px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--disablad-color);
+    margin-left: 270px;
+    margin-bottom: 50px;
+}
+.advice__cards {
+    max-width: 100%;
+    position: absolute;
+    display: grid;
+    column-gap: 39px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+.advice__card {
+    width: 230px;
+    height: 341px;
+    padding: 30px 22px ;
+    gap: 39px;
+    background: var(--light-color);
+}
+.advice__card-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: var(--dark-color);
+    margin-bottom: 15px;
+}
+.advice__card-text {
+    width: 160px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: var(--disablad-color);
+    margin-bottom: 30px;
+}
+.advice__img-1 {
+    position: absolute;
+    margin-top: 190px;
+}
+/*.advice__img-2 {*/
+/*    position: relative;*/
+/*    margin-inline-end: 50px;*/
+/*}*/
+/*ADVICE SECTION*/
